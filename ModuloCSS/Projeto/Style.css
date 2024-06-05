@@ -8,6 +8,8 @@
 
 :root {
     font-size: 62.5%;
+    --default-border:  0.1rem solid rgba(0, 0, 0, 0.15);
+    --default-border-radius: 1.2rem;
 }
 
 body {
@@ -50,9 +52,9 @@ main h2 span {
 main {
     width: 60rem;
     height: 52rem;
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    border: var(--default-border);
     padding: 4.4rem 5.7rem;
-    border-radius: 1.2rem;
+    border-radius: var(--default-border-radius);
 }
 
 main h2 {
@@ -63,11 +65,11 @@ main h2 {
 
 main .actions {
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
 }
 
 main .actions a {
-    border-radius: 1.2rem;
+    border-radius: var(--default-border-radius);
     text-decoration: none;
     font-size: 2.4rem;
     height: 5.5rem;
@@ -97,4 +99,13 @@ main footer a {
     display: block;
     text-align: center;
     color: #000;
+}
+
+main form input {
+    width: 489px;
+    height: 5.5rem;
+
+    background: #ffff;
+    border: var(--default-border);
+    border-radius: var(--default-border-radius);
 }
