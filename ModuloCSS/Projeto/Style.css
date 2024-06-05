@@ -1,6 +1,100 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+}
+
+.content {
+    display: grid;
+    grid-template-areas:
+
+        ". . . . ."
+        ". hero . form ."
+        ". hero . form ."
+        ". . . . ."
+    ;
+    gap: 8.5rem;
+}
+
+main {
+    grid-area: form;
+}
+
+aside {
+    grid-area: hero;
+}
+
+aside h1 {
+
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+}
+
+aside h1 span,
+main h2 span {
+    color: #FF5678;
+}
+
+main {
+    width: 60rem;
+    height: 52rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 4.4rem 5.7rem;
+    border-radius: 1.2rem;
+}
+
+main h2 {
+    max-width: 43rem;
+    font-size: 3.6rem;
+    font-weight: 500;
+}
+
+main .actions {
+    display: flex;
+    flex-flow: column;
+}
+
+main .actions a {
+    border-radius: 1.2rem;
+    text-decoration: none;
+    font-size: 2.4rem;
+    height: 5.5rem;
+    background-color: #35E6E9;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5.4rem;
+}
+
+main .actions a+a {
+    background-color: #FF5678;
+    margin-top: 4.8rem;
+
+}
+
+main footer p {
+    font-size: 1.6rem;
+    margin-top: 8rem;
+}
+
+main footer a {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    display: block;
+    text-align: center;
+    color: #000;
+}
