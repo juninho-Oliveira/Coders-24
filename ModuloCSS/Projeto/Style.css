@@ -55,6 +55,7 @@ main {
     border: var(--default-border);
     padding: 4.4rem 5.7rem;
     border-radius: var(--default-border-radius);
+    position: relative;
 }
 
 main h2 {
@@ -100,12 +101,71 @@ main footer a {
     text-align: center;
     color: #000;
 }
+main header {
+    display: flex;
+    align-items: center;
+    gap: 0 1.8rem;
+}
 
-main form input {
+main header  i {
+    font-size: 2.4rem;
+    color: #FF5678;
+}
+
+main form  {
+    margin-top: 1.6rem;
+}
+
+main form label {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: lowercase;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+main form  :is(input, select) {
     width: 489px;
     height: 5.5rem;
+    display: block;
 
     background: #ffff;
     border: var(--default-border);
     border-radius: var(--default-border-radius);
+}
+
+main form  select {
+    appearance: none;
+}
+
+main form .select-div {
+    position: relative;
+}
+
+main form .select-div::after {
+    top: 1.6rem;
+    right: 1.6rem;
+    font-size: 2.2rem;
+    content: '\f107';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 600;
+    position: absolute;
+    z-index: 1;
+    color: #35E6E9;
+    cursor: pointer;
+}
+
+main form .points {
+    position: relative;
+}
+
+main form input + button {
+    position: absolute;
+    right: -3.7rem;
+    top: calc(2.7rem + 2.3rem);
+    background-color: transparent;
+    border: none;
+    color: #35E6E9;
+    font-size: 2.4rem;
+    cursor: pointer;
 }

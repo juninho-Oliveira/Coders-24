@@ -18,27 +18,42 @@
         </aside>
 
         <main>
-            <a href="Index.html">
-                <i class="fa-solid fa-angle-left"></i>
-            </a>
-            <h2>
-                Nova <span>entidade</span>
-                
-            </h2>
 
-            <form >
+            <header>
+                <a href="Index.html">
+                    <i class="fa-solid fa-angle-left"></i>
+                </a>
+                <h2>
+                    Nova <span>entidade</span>
+
+                </h2>
+
+            </header>
+
+            <form>
                 <label for="input-name">Nome</label>
                 <input type="text" name="nome" id="input-name">
 
                 <label for="input-field">Campo de atuação</label>
-                <input type="text" name="nome" id="input-field">
+                <div class="select-div">
+                    <select id="input-field">
+                        <option value="">Selecione uma opção</option>
+                        <option value="abrigo">Abrigo de animais</option>
+                    </select>
+                </div>
 
-                <label for="input-points">Ponto de coletas</label>
-                <input type="text" name="nome" id="input-points">
 
-                <button>
-                    <i class="fa-solid fa-circle-plus"></i>
-                </button>
+                <div class="points">
+                    <label for="input-points">Ponto de coletas</label>
+                    <input type="text" name="nome" id="input-points">
+
+                    <button>
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </button>
+
+                </div>
+
+
             </form>
 
             <div class="actions">
