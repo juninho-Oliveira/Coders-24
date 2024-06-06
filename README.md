@@ -16,8 +16,8 @@ A trilha de "Front End" preparada pela Ada especialmente para o Santander Coders
 
 ### Projeto We Form 
 
-<img width="300" height="140" src='/ModuloCSS/Projeto/assets/img/tela.png'> 
-<img width="300" height="140" src='/ModuloCSS/Projeto/assets/img/tela-2.png'>
+![Imagem 1](/ModuloCSS/Projeto/assets/img/tela.png)
 
-<a href='https://www.figma.com/design/w11Rpk9e1tqreNMtHAVrDm/We-Form?node-id=0-1&t=MCcQaq0vGwbkqXtT-0'>Figma</a>
+[![Static Badge](https://img.shields.io/badge/Acessar_Layout-Figma-2304D361)](https://www.figma.com/design/w11Rpk9e1tqreNMtHAVrDm/We-Form?node-id=0-1&t=MCcQaq0vGwbkqXtT-0)
+
 
