@@ -20,6 +20,8 @@ A trilha de "Front End" preparada pela Ada especialmente para o Santander Coders
 
 [![Static Badge](https://img.shields.io/badge/Acessar_Layout-Figma-2304D361)](https://www.figma.com/design/w11Rpk9e1tqreNMtHAVrDm/We-Form?node-id=0-1&t=MCcQaq0vGwbkqXtT-0)
 
+<a href="https://coders-24.vercel.app/">Deploy </a>
+
 ### Projeto Space Flight News feito no modulo React
 
 ![Imagem 1](/ModuloReact/primeiro-projeto/src/assets/img/tela.png)
