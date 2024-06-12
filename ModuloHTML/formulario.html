@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <main>
+        <h1>Formulários</h1>
+        <hr>
+        <br>
+
+        <form>
+            <div>
+                <label for="texto">Nome</label>
+                <input type="text" id="texto" name="nome" > 
+            </div>
+
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="data">Data de Nascismento:</label>
+                <input type="date" id="data" name="">
+            </div>
+
+            <div>
+                <label for="numero">Numero:</label>
+                <input type="number" id="numero" name="numero" >
+            </div>
+
+            <div>
+                <label for="hora">Horário</label>
+                <input type="time" id="hora" name="hora">
+            </div>
+
+            <div>
+                <label for="arquivo">Input:</label>
+                <input type="file" id="arquivo" name="arquivo" >
+            </div>
+
+            <div>
+                <label for="url">Url</label>
+                <input type="url" id="url" name="url">
+            </div>
+
+            <div>
+                <label for="cor">Cor</label>
+                <input type="color" id="cor" name="cor">
+            </div>
+
+            <div>
+                <label for="qualquer">Input</label>
+                <input type="range" id="qualquer" name="avaliacao" value="50" max="100" min="0">
+            </div>
+
+            <div>
+                <label for="dois">Input</label>
+                <input type="checkbox" id="dois" name="dois">
+                <input type="radio">
+            </div>
+
+            <div>
+                <label for="tres">Redefinir:</label>
+                <input type="reset" id="tres" name="tres" value="Limpar">
+            </div>
+
+            <h3>
+            <label for="bio">Sobre você</label>
+            </h3>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+            <div>
+                <select name="select" id="select">
+                    <option value="" disabled selected>Selecione uma das opções...</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="tranderencia">Transferência</option>
+                    
+                </select>
+            </div>
+
+            <br><br>
+
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+
+    </main>
+</body>
+</html>
