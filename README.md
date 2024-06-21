@@ -27,3 +27,7 @@ A trilha de "Front End" preparada pela Ada especialmente para o Santander Coders
 ![Imagem 1](/ModuloReact/primeiro-projeto/src/assets/img/tela.png)
 
 [![Static Badge](https://img.shields.io/badge/Acessar_Layout-Figma-2304D361)](https://www.figma.com/design/rWyLhkEgt6eHvApPaL0K36/Space-Flight-News-(2022))
+
+### Certificado do curso 
+
+![Imagem 1](/ModuloReact/primeiro-projeto/src/assets/img/certificado.png)
